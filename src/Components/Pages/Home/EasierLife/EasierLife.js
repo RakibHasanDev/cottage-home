@@ -70,7 +70,7 @@ const EasierLife = () => {
         <div className="max-w-6xl mx-auto">
           <div className="bg-white lg:flex justify-start gap-2 py-[68px]">
             <div
-              className="md:-ml-10 flex lg:block justify-center items-center px-5"
+              className="md:-ml-15 lg:-ml-10 flex lg:block justify-center items-center px-5"
             // data-aos="fade-right"
             // data-aos-duration="2000"
             >

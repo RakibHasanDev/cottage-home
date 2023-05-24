@@ -10,7 +10,7 @@ const Quality = () => {
       <h3 className="text-[#322e51] text-2xl md:text-3xl lg:text-4xl font-bold text-center mt-10 playrify">
         The Service We Provide <br /> in-home care
       </h3>
-      <hr className="border-[#00a6b2] border-t-2 w-12 mt-5 mb-8 mx-auto" />
+      <hr className="border-[#00a6b2] border-t-2 w-12 mt-2 mb-8 mx-auto" />
       <h6 className="text-center md:text-2xl text-primary px-4 md:px-0">
         HHA/PCA CDPAP SERVICES THROUGHOUT NEW YORK CITY{" "}
       </h6>

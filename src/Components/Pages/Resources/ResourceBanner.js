@@ -12,7 +12,7 @@ const ResourceBanner = () => {
         // console.log(`Done after 5 loops!`);
     };
     return (
-        <div className='resource-Banner h-[50vh] md:h-[100vh]  '>
+        <div className='resource-Banner h-[50vh] md:h-[50vh] lg:h-[100vh] '>
 
             <div className='text-center pt-[10vh] md:pt-[20vh] flex justify-center'>
                 <h1 className="md:text-5xl text-3xl px-4 md:px-0  text-white font-[PlayfairDisplay]  font-semibold w-[600px]  h-[100px] ">

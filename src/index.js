@@ -17,6 +17,7 @@ root.render(
       </AuthProvider>
     </QueryClientProvider>
   </React.StrictMode>
+ 
 );
 
 reportWebVitals();

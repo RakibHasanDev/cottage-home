@@ -37,15 +37,15 @@ const WeAre = () => {
       <div className=" pt-10 md:w-[80%] w-[95%] mx-auto">
         <h1 className="playrify text-4xl font-bold text-center">Who We Are</h1>
         <div className="flex justify-center">
-          <hr className="bg-primary px-5 mt-2 py-[1px] w-[220px]" />
+          <hr className="bg-primary px-5 mt-2 py-[1px] w-[80px] lg:w-[220px]" />
         </div>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-7 ">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-7 mt-5 lg:mt-0">
           {informations.map((info, index) => (
             <div
               key={index}
-              className="md:mt-16
-                            p-4"
+              className="lg:mt-16
+                            p-4 border-[1px] border-primary shadow-md"
               data-aos="zoom-in"
               data-aos-duration="1000"
             >

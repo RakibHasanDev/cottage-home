@@ -14,7 +14,7 @@ const TopBar = () => {
         <div className=''>
            
             <div className='text-[#2E294E] block w-[95%] mx-auto'>
-                <div className='flex justify-center lg:justify-between items-center '>
+                <div className='flex justify-end md:justify-center lg:justify-between items-center '>
                 <div className='roboto px-8 py-3 lg:flex items-center lg:justify-between lg:w-[95%]'>
                 <div className='lg:flex gap-8 hidden'>
                     <div className='flex gap-4 items-center md:text-lg '>
@@ -33,22 +33,14 @@ const TopBar = () => {
                     </div>
                 </div>
 
-                <div className='lg:flex items-center gap-5 md:text-lg font-medium  text-primary hidden '>
-                    {/* <div className="dropdown mr-[10%] ">
-                        <label tabIndex={0} className=" cursor-pointer text-base ">Language</label>
-                        <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-24 text-sm text-center">
-                            <li className='mt-2 cursor-pointer'> 
-                                    English  
-                            </li>
-                            <li className='mt-2 cursor-pointer'> 
-                                    Spanish  
-                            </li>
-                            <li className='mt-2 cursor-pointer'> 
-                                    Hindi  
-                            </li>
-                            
-                        </ul>
-                    </div> */}
+                <div className='flex items-center gap-4 md:gap-5 md:text-lg font-medium  text-primary '>
+
+                    <a href="tel:+1516-367-2266" className='text-primary lg:hidden md:text-2xl bg-hov2'> <BsFillTelephoneFill /></a> 
+
+                    <a href="mailto:info@cottagehomecare.com" className='text-primary md:text-2xl bg-hov2 lg:hidden'> <TfiEmail /></a>
+
+
+
                     <a href="https://www.facebook.com/CottageHCS" target='_blank'><BsFacebook className='md:text-2xl bg-hov2' /></a>
 
 
@@ -77,7 +69,7 @@ const TopBar = () => {
                 </div>
             </div>
 
-            <hr className='hidden lg:block' />
+            <hr/>
         </div>
     );
 };

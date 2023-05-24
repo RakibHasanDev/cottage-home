@@ -90,7 +90,7 @@ const DashBoardLayout = () => {
           <label htmlFor="dashboard-drawer" className=" drawer-button text-4xl text-primary"><CgMenuGridR /></label>
         </div>
       </div>
-      <div className="drawer drawer-mobile">
+      <div className="drawer drawer-mobile ">
         <input
           id="dashboard-drawer"
           type="checkbox"
@@ -99,7 +99,7 @@ const DashBoardLayout = () => {
         <div className="drawer-content">
           <Outlet></Outlet>
         </div>
-        <div className="drawer-side lg:bg-[#EBF8F9] rounded-md shadow-lg">
+        <div className="drawer-side lg:border-2 w-[70%] lg:w-fit bg-white lg:bg-[#EBF8F9] rounded-md lg:shadow-lg">
           <label htmlFor="dashboard-drawer" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 text-base-content mt-16">
             <li className="text-primary ">

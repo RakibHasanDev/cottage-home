@@ -7,7 +7,6 @@ import './Carousel.css'
 
 
 import { Pagination, Navigation, Autoplay, A11y } from "swiper";
-import { Link } from "react-router-dom";
 import { SliderButton } from "./SliderButton/SliderButton";
 
 
@@ -45,7 +44,7 @@ export default function Slider() {
                 key={index}
                 >
                     <div
-                        className="lg:h-[500px] h-96 bg-cover bg-center bg-no-repeat text-white rounded-xl "
+                        className="lg:h-[500px] md:h-96 h-56 bg-cover bg-center bg-no-repeat text-white rounded-xl "
                         style={{
                             backgroundImage: `url(${slider.img})`,
                         }}

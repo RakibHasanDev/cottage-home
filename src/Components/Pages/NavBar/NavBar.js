@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
-import navLogo from '../../../assets/Cottage Home.png'
+import navLogo from '../../../assets/Cottage Home.png';
 import useAdmin from '../../Hooks/UseAdmin';
 import { AuthContext } from '../Context/AuthProvider';
-import './Nav.css'
+import './Nav.css';
 
 
 const NavBar = () => {
@@ -72,7 +72,7 @@ const NavBar = () => {
                         <div>
                             <div className='flex items-center '>
                                 <img src={navLogo} className='nav-img  shadow-2xl p-2 border-2 border-primary rounded-full' alt="" />
-                                <h5 className={` ml-4  font-semibold tracking-wide text-[#00A6B2] transition-colors duration-200 nav-font`}>
+                                <h5 className={` ml-4  font-semibold tracking-wide text-[#00A6B2] transition-colors duration-200 nav-font Coco-gothic `}>
                                     Cottage Home Care Services
                                     <hr className='border-[1px] -mt-0.5 border-[#49465D]' />
                                     <p className='font-semibold top-title text-center text-[#49465D]'>
@@ -89,7 +89,7 @@ const NavBar = () => {
 
                     </NavLink>
 
-                    <ul id='nav-text' className="flex items-center hidden space-x-5 lg:flex">
+                    <ul id='nav-text' className="flex items-center hidden space-x-5 lg:flex Berlin">
                         <li>
                             <NavLink
                                 to='/home'

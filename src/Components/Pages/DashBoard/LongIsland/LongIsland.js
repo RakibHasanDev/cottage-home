@@ -155,7 +155,7 @@ const LongIsland = () => {
                         [...Array(pages).keys()].map(number => <button
                             key={number}
                             className={
-                                page === number ? 'selected px-3 py-1   text-white ml-3 cursor-pointer custom-shadow'
+                                page === number ? 'selected px-3 py-1 ml-3 cursor-pointer border-[1px] custom-shadow'
                                     :
                                     'px-3 py-1   text-gray-500 ml-3 cursor-pointer border-[1px] border-gray-300 hover:bg-[#444444] hover:text-white custom-shadow'
 

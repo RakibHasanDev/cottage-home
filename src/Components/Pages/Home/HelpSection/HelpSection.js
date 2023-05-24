@@ -5,7 +5,7 @@ import chatting from "../../../../assets/new-smile.jpg";
 const HelpSection = () => {
   return (
     <div className="bg-[#EBF8F9]">
-      <h1 className="text-center playrify  md:text-3xl text-2xl lg:text-4xl font-bold text-[#322e51] pt-20 px-5 md:px-0 ">
+      <h1 className="text-center playrify  md:text-3xl text-2xl lg:text-4xl font-bold text-[#322e51] pt-5 md:pt-20 px-5 md:px-0 ">
         When you’re getting the right help <br className="hidden md:block" />{" "}
         you live healthier — and happier
       </h1>
@@ -21,7 +21,7 @@ const HelpSection = () => {
           </h3>
           <div className="flex items-center pr-5">
             <FaStar className="mr-3 text-[#00A6B2] text-2xl"></FaStar>
-            <p className=" font-semibold md:text-lg w-[98%] lg:w-[80%] md:w-[90%] md:text-justify text-justify source-sun">
+            <p className=" font-semibold md:text-lg w-[98%] lg:w-[80%] md:w-[90%] md:text-justify text-justify source-sun md:tracking-tight tracking-tighter ">
               <span className="text-[#00a6b2] font-semibold text-lg">
               Exceptional patient care:
               </span>{" "}
@@ -30,7 +30,7 @@ const HelpSection = () => {
           </div>
           <div className="flex items-center pt-7 pr-5">
             <FaStar className="mr-3 text-[#00A6B2] text-2xl"></FaStar>
-            <p className="font-semibold md:text-lg  w-[98%] lg:w-[80%] md:w-[90%] md:text-justify text-justify source-sun">
+            <p className="font-semibold md:text-lg  w-[98%] lg:w-[80%] md:w-[90%] md:text-justify text-justify source-sun md:tracking-tight tracking-tighter">
               <span className="text-[#00a6b2] font-semibold text-lg">
               Strong communication & collaboration:
               </span>{" "}
@@ -39,7 +39,7 @@ const HelpSection = () => {
           </div>
           <div className="flex items-center pt-7 pr-5">
             <FaStar className="mr-3 text-[#00A6B2] text-2xl"></FaStar>
-            <p className="font-semibold md:text-lg w-[98%] lg:w-[80%] md:w-[90%] md:text-justify text-justify source-sun">
+            <p className="font-semibold md:text-lg w-[98%] lg:w-[80%] md:w-[90%] md:text-justify text-justify source-sun md:tracking-tight tracking-tighter">
               <span className="text-[#00a6b2] font-semibold text-lg">
               Respect for patients’ choices and preferences:
               </span>{" "}

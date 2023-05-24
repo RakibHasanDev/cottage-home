@@ -36,10 +36,10 @@ const WhyChoose = () => {
           </div>
 
 
-          <div className=" mt-[5vh] flex justify-start text-white gap-8">
+          <div className=" mt-[2vh] lg:mt-[5vh] flex justify-start text-white gap-8">
             <a
               href="tel:+1516-367-2266"
-              className=" px-9 py-4 rounded-full bg-primary capitalize  bg-hov2"
+              className=" px-4 md:px-9 py-3 md:py-4 rounded-full bg-primary capitalize  bg-hov2"
             >
               Learn More
             </a>

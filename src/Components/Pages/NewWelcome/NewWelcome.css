@@ -4,8 +4,9 @@ figure.snip1390 {
   font-family: 'Roboto', Arial, sans-serif;
   position: relative;
   overflow: hidden;
-  margin: 25px auto;
-  width: 95%;
+  margin:  auto;
+
+  width: 100%;
   color: #000000;
   text-align: center;
   font-size: 16px;
@@ -14,6 +15,7 @@ figure.snip1390 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 figure.snip1390 *,
 figure.snip1390 *:before,
 figure.snip1390 *:after {
@@ -34,10 +36,12 @@ figure.snip1390 h2,
 figure.snip1390 h4 {
   font-weight: 300;
 }
+
 figure.snip1390 h2 {
   color: rgba(4, 4, 4, 0.862);
   font-weight: 400;
 }
+
 figure.snip1390 h4 {
     color: rgba(4, 4, 4, 0.862);
     font-weight: 400;
@@ -45,7 +49,7 @@ figure.snip1390 h4 {
 figure.snip1390 blockquote {
   font-size: 14px;
   padding: 45px 20px 40px 30px;
-  margin-top: 25px;
+  margin-top: 18px;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);

@@ -49,7 +49,7 @@ const Values = () => {
                     className="w-8 h-8 text-primary sm:w-10 sm:h-10"
                     stroke="currentColor"
                     viewBox="0 0 52 52"
-                  >
+                  > 
                     <polygon
                       strokeWidth="3"
                       strokeLinecap="round"
@@ -61,7 +61,7 @@ const Values = () => {
                 </div>
               </div>
               <div>
-                <h6 className="mb-3 text-xl font-bold leading-5">
+                <h6 className="mb-3 text-xl font-bold leading-5 ">
                 Personalized care:
                 </h6>
                 <p className="text-sm text-gray-900">

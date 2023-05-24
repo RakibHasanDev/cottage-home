@@ -73,7 +73,7 @@ const PreventSteps = () => {
               data-aos="zoom-in"
             >
               <div className="flex gap-4 items-center">
-                <div className="relative">
+                <div className="relative w-24 md:w-fit ">
                   <img
                     src={right.img}
                     className="w-16 h-16 rounded-full border-2 border-primary  circle"
@@ -99,7 +99,7 @@ const PreventSteps = () => {
               data-aos="zoom-in"
             >
               <div className="flex gap-4 items-center ">
-                <div className="relative">
+                <div className="relative w-24 md:w-fit ">
                   <img
                     src={wrong.img}
                     className="w-16 h-16 rounded-full border-2 border-primary circle"
